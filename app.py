@@ -5,6 +5,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pickle
 
+
+# LOAD MACHINE LEARNING MODEL
+model = pickle.load(
+    open("employee_performance_model.pkl", "rb")
+)
+
+
 # =====================================================
 # PAGE CONFIG
 # =====================================================
